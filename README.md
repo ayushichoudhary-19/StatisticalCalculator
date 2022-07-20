@@ -16,8 +16,7 @@ The website takes in input in the form of comma seperated values and calculates 
     
    - `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
    
-    ![image](https://user-images.githubusercontent.com/73214455/179926430-d722da83-b7ab-41f2-a14c-ee67b6d3de69.png)
- 
+    ![image](https://user-images.githubusercontent.com/73214455/179926727-feaf201d-a705-49d5-86f1-65ee0de56682.png)
     
    - `alert` class used to display the alert in case of wrong output.
    
