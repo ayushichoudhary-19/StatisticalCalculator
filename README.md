@@ -43,4 +43,4 @@ Other statistical calculations such as mode, median, A/B Testing, Corelation Coe
 <b>Demo: </b> https://ayushichoudhary-19.github.io/StatisticalCalculator/
 
 # License
-This project is licensed under the MIT License
+This project is licensed under the MIT License - LICENSE
