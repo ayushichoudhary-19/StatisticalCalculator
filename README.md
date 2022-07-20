@@ -37,6 +37,7 @@ The website takes in input in the form of comma seperated values and calculates 
 # Future Features
 Other statistical calculations such as mode, median, A/B Testing, Corelation Coefficient, Lenear Regression etc. will be added later.
 
-
+# Deployed Website
+![image](https://user-images.githubusercontent.com/73214455/179927360-9e50feb4-aed0-44aa-ad50-9f1272f23a93.png)
 
 <b>Demo: </b> https://ayushichoudhary-19.github.io/StatisticalCalculator/
