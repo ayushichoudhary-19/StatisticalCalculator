@@ -1,4 +1,4 @@
-# StatisticalCalculator
+# Statistical Calculator
 <b>Tech Stack </b>
 1. HTML
 2. JavaScript
