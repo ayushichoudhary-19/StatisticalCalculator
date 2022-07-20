@@ -15,8 +15,8 @@ The website takes in input in the form of comma seperated values and calculates 
     ![image](https://user-images.githubusercontent.com/73214455/179920239-e8daf83f-4356-44fd-8e3b-ff7b77a26be6.png)
     
    - `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
-    
-    <img width="904" alt="image" src="https://user-images.githubusercontent.com/73214455/179926050-dc58faea-e2e3-4a5b-b9d9-cdf8bd8be0e8.png">   
+    ![image](https://user-images.githubusercontent.com/73214455/179926430-d722da83-b7ab-41f2-a14c-ee67b6d3de69.png)
+ 
     
    - `alert` class used to display the alert in case of wrong output.
  ![image](https://user-images.githubusercontent.com/73214455/179921964-5003764e-75a5-4755-b74b-41138be7b7ab.png)
