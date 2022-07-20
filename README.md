@@ -9,7 +9,8 @@ The website takes in input in the form of comma seperated values and calculates 
 
 # Code Highlights
 <b>Bootstrap:</b>
-    * <code> navbar </code> class with its vaiations for styling have bee used to create the navigation bar.
+    * <code> navbar </code> 
+    class with its vaiations for styling have bee used to create the navigation bar.
     ![image](https://user-images.githubusercontent.com/73214455/179920239-e8daf83f-4356-44fd-8e3b-ff7b77a26be6.png)
 
     * <code> container-sm </code> and <code> border <code>rounded my-5 bg-light text-white text-center </code> classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
