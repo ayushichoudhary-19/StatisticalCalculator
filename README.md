@@ -11,10 +11,14 @@ The website takes in input in the form of comma seperated values and calculates 
 <b>Bootstrap</b>
 
    `navbar` class with its vaiations for styling have bee used to create the navigation bar.
+   
     ![image](https://user-images.githubusercontent.com/73214455/179920239-e8daf83f-4356-44fd-8e3b-ff7b77a26be6.png)
     
-    Used `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
+    `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
+    
     ![image](https://user-images.githubusercontent.com/73214455/179921353-1ad0fb29-8866-45f1-ac53-f4d4b26f22e2.png)
+    
+    
     
     `alert` class used to display the alert in case of wrong output.
  ![image](https://user-images.githubusercontent.com/73214455/179921964-5003764e-75a5-4755-b74b-41138be7b7ab.png)
