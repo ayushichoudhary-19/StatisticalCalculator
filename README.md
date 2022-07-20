@@ -13,11 +13,12 @@ The website takes in input in the form of comma seperated values and calculates 
   - `navbar` class with its vaiations for styling have bee used to create the navigation bar.
    
     ![image](https://user-images.githubusercontent.com/73214455/179920239-e8daf83f-4356-44fd-8e3b-ff7b77a26be6.png)
-    
-   - `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.  
    
-    ![image](https://user-images.githubusercontent.com/73214455/179926727-feaf201d-a705-49d5-86f1-65ee0de56682.png)
-    
+   
+    ![image](https://user-images.githubusercontent.com/73214455/179927038-c6d273df-5355-4021-8586-142037331ffe.png)
+
+   - `container-sm` and `border` `rounded` `my-5` `bg-light` `text-white` `text-center` classes have been used for the main container that takes in the input. It is wrapped inside a form tag.
+  
    - `alert` class used to display the alert in case of wrong output.
    
  ![image](https://user-images.githubusercontent.com/73214455/179921964-5003764e-75a5-4755-b74b-41138be7b7ab.png)
