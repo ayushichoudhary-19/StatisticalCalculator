@@ -37,6 +37,37 @@ function Calculate(event){
             sum=sum+cleanValues[i];
         }
         let mean=sum/N;
+
+        cleanValues.sort((a, b) => a - b);
+        let median;
+        if (N % 2 === 0) {
+            // If the number of values is even, average the two middle values
+            median = (cleanValues[N / 2 - 1] + cleanValues[N / 2]) / 2;
+        } else {
+            // If the number of values is odd, take the middle value
+            median = cleanValues[Math.floor(N / 2)];
+        }
+
+                // Calculate Mode
+                let modeMap = {};
+                let maxCount = 0;
+                let mode = [];
+        
+                for (let i = 0; i < N; i++) {
+                    if (modeMap[cleanValues[i]] == null) {
+                        modeMap[cleanValues[i]] = 1;
+                    } else {
+                        modeMap[cleanValues[i]]++;
+                    }
+        
+                    if (modeMap[cleanValues[i]] > maxCount) {
+                        mode = [cleanValues[i]];
+                        maxCount = modeMap[cleanValues[i]];
+                    } else if (modeMap[cleanValues[i]] === maxCount) {
+                        mode.push(cleanValues[i]);
+                    }
+                }
+
         let Xi_emu=0;
         for(let i=0;i<N;i++){
             Xi_emu=Xi_emu+(Math.pow((cleanValues[i]-mean),2))
@@ -49,6 +80,8 @@ function Calculate(event){
 
         document.getElementById('sdResult').style.visibility='visible';  
         document.getElementById('mean').innerHTML=`Mean: ${mean}`;      
+        document.getElementById('median').innerHTML = `Median: ${median}`;
+        document.getElementById('mode').innerHTML = `Mode(s): ${mode.join(', ')}`;
         document.getElementById('populationSD').innerHTML=`Population Standard Deviation is: ${pSD}`;
         document.getElementById('sampleSD').innerHTML=`Sample Standard Deviation is: ${sSD}`;
         document.getElementById('variance').innerHTML=`Variance is: ${variance}`;
